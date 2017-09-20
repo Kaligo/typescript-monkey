@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.add_runtime_dependency 'tilt', '~> 2.0', '>= 2.0.0'
-  spec.add_runtime_dependency 'railties', '>= 4.0.0', '< 5.0.0'
+  spec.add_runtime_dependency 'railties', '>= 4.0.0', '< 6.0.0'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
