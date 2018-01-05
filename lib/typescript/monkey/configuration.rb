@@ -21,6 +21,7 @@ module Typescript::Monkey
         "--outFile /dev/stdout",
         "--noResolve",
         "--removeComments",
+        "--experimentalDecorators",
         "--typeRoots ['#{File.expand_path("../lib", Typescript::Monkey::Package.metadata_path())}']"
       ]
       @options = @_default_options.to_set
